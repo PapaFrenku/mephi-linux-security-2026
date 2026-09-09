@@ -1,0 +1,5 @@
+   2096 60578     0 root     fusermount3     fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/60578/doc
+   2204  1001     0 root     sudo            sudo -i
+   2212  1001     0 root     sudo            sudo -i
+   2475  1001     0 root     su              su - user1
+   2540  1234     0 root     passwd          passwd

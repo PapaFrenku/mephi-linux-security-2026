@@ -1,0 +1,45 @@
+    1  cp "$(which cat)" ~/mycat
+    2  ls -l ~/mycat
+    3  exit
+    4  ~/mycat /etc/shadow
+    5  ls -l ~/mycat
+    6  stat /home/user1 > ~/stat.out
+    7  stat /home/user1/mycat >> ~/stat.out
+    8  which chown
+    9  cp "$(which chown)" ~/mychown
+   10  touch ~/testfile
+   11  ls -l ~/testfile
+   12  chown root ~/testfile
+   13  sudo -i
+   14  exit
+   15  /home/user1/mychown root ~/testfile
+   16  ls -l ~/testfile
+   17  exit
+   18  history 
+   19  echo 373101
+   20  history > ~/history.out
+   21  cat ~/history.out 
+   22  ls -ahl
+   23  sudo -i
+   24  exit
+   25  ls -ahl
+   26  mkdir miphi_homework
+   27  mv *.out miphi_homework/
+   28  cd miphi_homework/
+   29  ls -ahl
+   30  cat history.out 
+   31  cat stat.out 
+   32  cat getcap.out 
+   33  cat setuid-files.out 
+   34  cat privileged-processes.out
+   35  cat processes.out
+   36  ls -ahl
+   37  cat history.out
+   38  nano privileged-processes.out
+   39  ls
+   40  ls ~/
+   41  rm privileged-processes.out
+   42  mv ~/privileged-processes.out ./
+   43  ls
+   44  cat privileged-processes.out
+   45  history > history.out 

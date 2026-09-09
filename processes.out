@@ -1,0 +1,208 @@
+    PID  RUID  EUID USER     COMMAND         COMMAND
+      1     0     0 root     systemd         /usr/lib/systemd/systemd --switched-root --system --deserialize=59 rhgb
+      2     0     0 root     kthreadd        [kthreadd]
+      3     0     0 root     pool_workqueue_ [pool_workqueue_release]
+      4     0     0 root     kworker/R-rcu_g [kworker/R-rcu_gp]
+      5     0     0 root     kworker/R-sync_ [kworker/R-sync_wq]
+      6     0     0 root     kworker/R-kvfre [kworker/R-kvfree_rcu_reclaim]
+      7     0     0 root     kworker/R-slub_ [kworker/R-slub_flushwq]
+      8     0     0 root     kworker/R-netns [kworker/R-netns]
+      9     0     0 root     kworker/0:0-cgr [kworker/0:0-cgroup_free]
+     10     0     0 root     kworker/0:0H-ev [kworker/0:0H-events_highpri]
+     12     0     0 root     kworker/u16:0-b [kworker/u16:0-btrfs-endio-write]
+     13     0     0 root     kworker/R-mm_pe [kworker/R-mm_percpu_wq]
+     14     0     0 root     kworker/u16:1-e [kworker/u16:1-events_unbound]
+     15     0     0 root     ksoftirqd/0     [ksoftirqd/0]
+     16     0     0 root     rcu_preempt     [rcu_preempt]
+     17     0     0 root     rcu_exp_par_gp_ [rcu_exp_par_gp_kthread_worker/0]
+     18     0     0 root     rcu_exp_gp_kthr [rcu_exp_gp_kthread_worker]
+     19     0     0 root     migration/0     [migration/0]
+     20     0     0 root     cpuhp/0         [cpuhp/0]
+     21     0     0 root     cpuhp/1         [cpuhp/1]
+     22     0     0 root     migration/1     [migration/1]
+     23     0     0 root     ksoftirqd/1     [ksoftirqd/1]
+     25     0     0 root     kworker/1:0H-ev [kworker/1:0H-events_highpri]
+     26     0     0 root     cpuhp/2         [cpuhp/2]
+     27     0     0 root     migration/2     [migration/2]
+     28     0     0 root     ksoftirqd/2     [ksoftirqd/2]
+     30     0     0 root     kworker/2:0H-ev [kworker/2:0H-events_highpri]
+     31     0     0 root     cpuhp/3         [cpuhp/3]
+     32     0     0 root     migration/3     [migration/3]
+     33     0     0 root     ksoftirqd/3     [ksoftirqd/3]
+     35     0     0 root     kworker/3:0H-ev [kworker/3:0H-events_highpri]
+     36     0     0 root     kdevtmpfs       [kdevtmpfs]
+     37     0     0 root     kworker/R-inet_ [kworker/R-inet_frag_wq]
+     38     0     0 root     rcu_tasks_kthre [rcu_tasks_kthread]
+     39     0     0 root     rcu_tasks_rude_ [rcu_tasks_rude_kthread]
+     40     0     0 root     rcu_tasks_trace [rcu_tasks_trace_kthread]
+     41     0     0 root     kauditd         [kauditd]
+     42     0     0 root     oom_reaper      [oom_reaper]
+     43     0     0 root     kworker/R-write [kworker/R-writeback]
+     44     0     0 root     kcompactd0      [kcompactd0]
+     45     0     0 root     ksmd            [ksmd]
+     46     0     0 root     khugepaged      [khugepaged]
+     47     0     0 root     kworker/R-kbloc [kworker/R-kblockd]
+     48     0     0 root     kworker/R-blkcg [kworker/R-blkcg_punt_bio]
+     49     0     0 root     kworker/R-kinte [kworker/R-kintegrityd]
+     50     0     0 root     kworker/R-tpm_d [kworker/R-tpm_dev_wq]
+     51     0     0 root     kworker/R-ata_s [kworker/R-ata_sff]
+     52     0     0 root     kworker/R-md    [kworker/R-md]
+     53     0     0 root     kworker/R-md_bi [kworker/R-md_bitmap]
+     54     0     0 root     kworker/R-edac- [kworker/R-edac-poller]
+     55     0     0 root     kworker/u16:2-b [kworker/u16:2-btrfs-endio-write]
+     56     0     0 root     kworker/R-devfr [kworker/R-devfreq_wq]
+     57     0     0 root     watchdogd       [watchdogd]
+     58     0     0 root     kworker/1:1-eve [kworker/1:1-events]
+     59     0     0 root     kworker/3:1-eve [kworker/3:1-events_power_efficient]
+     60     0     0 root     kworker/3:1H-kb [kworker/3:1H-kblockd]
+     61     0     0 root     kworker/2:1-mm_ [kworker/2:1-mm_percpu_wq]
+     62     0     0 root     kswapd0         [kswapd0]
+     63     0     0 root     kworker/R-crypt [kworker/R-cryptd]
+     66     0     0 root     kworker/R-kthro [kworker/R-kthrotld]
+     69     0     0 root     kworker/R-acpi_ [kworker/R-acpi_thermal_pm]
+     70     0     0 root     kworker/R-dm_bu [kworker/R-dm_bufio_cache]
+     71     0     0 root     kworker/R-mld   [kworker/R-mld]
+     72     0     0 root     kworker/R-ipv6_ [kworker/R-ipv6_addrconf]
+     74     0     0 root     kworker/R-kstrp [kworker/R-kstrp]
+     85     0     0 root     kworker/3:2-eve [kworker/3:2-events]
+    155     0     0 root     kworker/0:1H-kb [kworker/0:1H-kblockd]
+    156     0     0 root     kworker/3:3-eve [kworker/3:3-events]
+    157     0     0 root     kworker/2:1H-kb [kworker/2:1H-kblockd]
+    159     0     0 root     kworker/1:1H-kb [kworker/1:1H-kblockd]
+    211     0     0 root     kworker/2:2-cgr [kworker/2:2-cgroup_free]
+    349     0     0 root     scsi_eh_0       [scsi_eh_0]
+    350     0     0 root     kworker/R-scsi_ [kworker/R-scsi_tmf_0]
+    361     0     0 root     irq/15-vmwgfx   [irq/15-vmwgfx]
+    362     0     0 root     kworker/R-ttm   [kworker/R-ttm]
+    378     0     0 root     kworker/u17:1   [kworker/u17:1]
+    390     0     0 root     kworker/R-btrfs [kworker/R-btrfs-worker]
+    391     0     0 root     kworker/R-btrfs [kworker/R-btrfs-delalloc]
+    392     0     0 root     kworker/R-btrfs [kworker/R-btrfs-flush_delalloc]
+    393     0     0 root     kworker/R-btrfs [kworker/R-btrfs-cache]
+    394     0     0 root     kworker/R-btrfs [kworker/R-btrfs-fixup]
+    395     0     0 root     kworker/R-btrfs [kworker/R-btrfs-endio]
+    396     0     0 root     kworker/R-btrfs [kworker/R-btrfs-endio-meta]
+    397     0     0 root     kworker/R-btrfs [kworker/R-btrfs-rmw]
+    398     0     0 root     kworker/R-btrfs [kworker/R-btrfs-endio-write]
+    399     0     0 root     kworker/R-btrfs [kworker/R-btrfs-compressed-write]
+    400     0     0 root     kworker/R-btrfs [kworker/R-btrfs-freespace-write]
+    401     0     0 root     kworker/R-btrfs [kworker/R-btrfs-delayed-meta]
+    402     0     0 root     kworker/R-btrfs [kworker/R-btrfs-qgroup-rescan]
+    403     0     0 root     btrfs-cleaner   [btrfs-cleaner]
+    404     0     0 root     btrfs-transacti [btrfs-transaction]
+    438     0     0 root     kworker/u16:4-b [kworker/u16:4-btrfs-delalloc]
+    495     0     0 root     systemd-journal /usr/lib/systemd/systemd-journald
+    523     0     0 root     systemd-userdbd /usr/lib/systemd/systemd-userdbd
+    531     0     0 root     kworker/u16:7-e [kworker/u16:7-events_unbound]
+    536     0     0 root     systemd-udevd   /usr/lib/systemd/systemd-udevd
+    538     0     0 root     psimon          [psimon]
+    631     0     0 root     jbd2/sda2-8     [jbd2/sda2-8]
+    633     0     0 root     kworker/R-ext4- [kworker/R-ext4-rsv-conversion]
+    654   193   193 systemd+ systemd-resolve /usr/lib/systemd/systemd-resolved
+    656     0     0 root     auditd          /usr/bin/auditd
+    682    81    81 dbus     dbus-broker-lau /usr/bin/dbus-broker-launch --scope system --audit
+    684    81    81 dbus     dbus-broker     dbus-broker --log 10 --controller 9 --machine-id c2f3b66ad1364e33abef92210c017c13 --max-bytes 536870912 --max-fds 4096 --max-matches 131072 --audit
+    687    70    70 avahi    avahi-daemon    avahi-daemon: running [fedora.local]
+    690     0     0 root     irqbalance      /usr/sbin/irqbalance
+    691     0     0 root     low-memory-moni /usr/libexec/low-memory-monitor
+    694   114   114 polkitd  polkitd         /usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+    696   987   987 rtkit    rtkit-daemon    /usr/libexec/rtkit-daemon
+    697     0     0 root     smartd          /usr/bin/smartd -n -q never --capabilities=mail
+    698     0     0 root     switcheroo-cont /usr/libexec/switcheroo-control
+    699     0     0 root     systemd-machine /usr/lib/systemd/systemd-machined
+    701     0     0 root     udisksd         /usr/libexec/udisks2/udisksd
+    702     0     0 root     upowerd         /usr/libexec/upowerd
+    710     0     0 root     psimon          [psimon]
+    715     0     0 root     accounts-daemon /usr/libexec/accounts-daemon
+    716     0     0 root     systemd-logind  /usr/lib/systemd/systemd-logind
+    717    70    70 avahi    avahi-daemon    avahi-daemon: chroot helper
+    720     0     0 root     abrtd           /usr/sbin/abrtd -d -s
+    732     0     0 root     alsactl         /usr/sbin/alsactl -s -n 19 -c -E ALSA_CONFIG_PATH=/etc/alsa/alsactl.conf --initfile=/lib/alsa/init/00main rdaemon
+    784     0     0 root     ModemManager    /usr/bin/ModemManager
+    785     0     0 root     firewalld       /usr/bin/python3 -sP /usr/bin/firewalld --nofork --nopid
+    791     0     0 root     abrt-dump-journ /usr/bin/abrt-dump-journal-core -D -T -f -e
+    792     0     0 root     abrt-dump-journ /usr/bin/abrt-dump-journal-oops -fxtD
+    793     0     0 root     abrt-dump-journ /usr/bin/abrt-dump-journal-xorg -fxtD
+    850     0     0 root     kworker/R-rpcio [kworker/R-rpciod]
+    851     0     0 root     kworker/R-xprti [kworker/R-xprtiod]
+    854     0     0 root     NetworkManager  /usr/bin/NetworkManager --no-daemon
+    863     0     0 root     cupsd           /usr/bin/cupsd -l
+    864     0     0 root     gssproxy        /usr/bin/gssproxy -i
+    865     0     0 root     sshd            sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+    866     0     0 root     tuned           /usr/bin/python3 -Es /usr/sbin/tuned -l -P
+   1225     0     0 root     tuned-ppd       /usr/bin/python3 -Es /usr/sbin/tuned-ppd -l
+   1247     0     0 root     rsyslogd        /usr/sbin/rsyslogd -n
+   1254     0     0 root     atd             /usr/sbin/atd -f
+   1255     0     0 root     crond           /usr/sbin/crond -n
+   1256     0     0 root     gdm             /usr/bin/gdm
+   1302     0     0 root     gdm-session-wor gdm-session-worker [pam/gdm-launch-environment]
+   1307     0     0 root     uresourced      /usr/libexec/uresourced
+   1311     0     0 root     psimon          [psimon]
+   1318 60578 60578 gdm-gre+ systemd         /usr/lib/systemd/systemd --user
+   1323 60578 60578 gdm-gre+ (sd-pam)        (sd-pam)
+   1339 60578 60578 gdm-gre+ gdm-wayland-ses /usr/libexec/gdm-wayland-session gnome-session
+   1342 60578 60578 gdm-gre+ dbus-broker-lau /usr/bin/dbus-broker-launch --scope user
+   1343 60578 60578 gdm-gre+ dbus-broker     dbus-broker --log 10 --controller 9 --machine-id c2f3b66ad1364e33abef92210c017c13 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+   1345 60578 60578 gdm-gre+ gnome-session-i /usr/libexec/gnome-session-init-worker gnome-login
+   1353 60578 60578 gdm-gre+ gnome-session-c /usr/libexec/gnome-session-ctl --monitor
+   1354 60578 60578 gdm-gre+ uresourced      /usr/libexec/uresourced --user
+   1361 60578 60578 gdm-gre+ gnome-session-s /usr/libexec/gnome-session-service --session=gnome-login
+   1364 60578 60578 gdm-gre+ pipewire        /usr/bin/pipewire
+   1365 60578 60578 gdm-gre+ wireplumber     /usr/bin/wireplumber
+   1376 60578 60578 gdm-gre+ gnome-shell     /usr/bin/gnome-shell
+   1434 60578 60578 gdm-gre+ at-spi-bus-laun /usr/libexec/at-spi-bus-launcher
+   1440 60578 60578 gdm-gre+ dbus-broker-lau /usr/bin/dbus-broker-launch --config-file=/usr/share/defaults/at-spi2/accessibility.conf --scope user
+   1441 60578 60578 gdm-gre+ dbus-broker     dbus-broker --log 10 --controller 9 --machine-id c2f3b66ad1364e33abef92210c017c13 --max-bytes 100000000000000 --max-fds 6400000 --max-matches 5000000000
+   1442   980   980 colord   colord          /usr/libexec/colord
+   1443 60578 60578 gdm-gre+ at-spi2-registr /usr/libexec/at-spi2-registryd --use-gnome-session
+   1466 60578 60578 gdm-gre+ xdg-permission- /usr/libexec/xdg-permission-store
+   1475 60578 60578 gdm-gre+ gjs             /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+   1482 60578 60578 gdm-gre+ ibus-daemon     /usr/bin/ibus-daemon --panel disable
+   1484 60578 60578 gdm-gre+ gsd-a11y-settin /usr/libexec/gsd-a11y-settings
+   1486 60578 60578 gdm-gre+ gsd-keyboard    /usr/libexec/gsd-keyboard
+   1487 60578 60578 gdm-gre+ gsd-media-keys  /usr/libexec/gsd-media-keys
+   1495 60578 60578 gdm-gre+ gsd-power       /usr/libexec/gsd-power
+   1501 60578 60578 gdm-gre+ gsd-rfkill      /usr/libexec/gsd-rfkill
+   1505 60578 60578 gdm-gre+ gsd-sharing     /usr/libexec/gsd-sharing
+   1507 60578 60578 gdm-gre+ gsd-smartcard   /usr/libexec/gsd-smartcard
+   1508 60578 60578 gdm-gre+ gsd-usb-protect /usr/libexec/gsd-usb-protection
+   1556 60578 60578 gdm-gre+ gjs             /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+   1560     0     0 root     pcscd           /usr/bin/pcscd --foreground --auto-exit
+   1577 60578 60578 gdm-gre+ ibus-dconf      /usr/libexec/ibus-dconf
+   1578 60578 60578 gdm-gre+ pipewire-pulse  /usr/bin/pipewire-pulse
+   1606 60578 60578 gdm-gre+ ibus-portal     /usr/libexec/ibus-portal
+   1665     0     0 root     wpa_supplicant  /usr/sbin/wpa_supplicant -c /etc/wpa_supplicant/wpa_supplicant.conf -u -s
+   1955     0     0 root     kworker/u17:2-t [kworker/u17:2-ttm]
+   1990 60578 60578 gdm-gre+ ibus-engine-sim /usr/libexec/ibus-engine-simple
+   2085 60578 60578 gdm-gre+ xdg-desktop-por /usr/libexec/xdg-desktop-portal
+   2090 60578 60578 gdm-gre+ xdg-document-po /usr/libexec/xdg-document-portal
+   2096 60578     0 root     fusermount3     fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/60578/doc
+   2100 60578 60578 gdm-gre+ xdg-desktop-por /usr/libexec/xdg-desktop-portal-gnome
+   2121 60578 60578 gdm-gre+ xdg-desktop-por /usr/libexec/xdg-desktop-portal-gtk
+   2130 60578 60578 gdm-gre+ gnome-keyring-d /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+   2137     0     0 root     sshd-session    sshd-session: superuser [priv]
+   2143  1001  1001 superus+ systemd         /usr/lib/systemd/systemd --user
+   2145  1001  1001 superus+ (sd-pam)        (sd-pam)
+   2161  1001  1001 superus+ sshd-session    sshd-session: superuser@pts/0
+   2162  1001  1001 superus+ bash            -bash
+   2204  1001     0 root     sudo            sudo -i
+   2212  1001     0 root     sudo            sudo -i
+   2213     0     0 root     bash            -bash
+   2269 60578 60578 gdm-gre+ python3         /usr/bin/python3 /usr/share/ibus-typing-booster/engine/main.py --ibus
+   2347     0     0 root     sshd-session    sshd-session: superuser [priv]
+   2350  1001  1001 superus+ sshd-session    sshd-session: superuser@pts/2
+   2351  1001  1001 superus+ bash            -bash
+   2640  1001     0 root     sudo            sudo -i
+   2642  1001     0 root     sudo            sudo -i
+   2643     0     0 root     bash            -bash
+   2777     0     0 root     kworker/1:0-cgr [kworker/1:0-cgroup_free]
+   2796 60578 60578 gdm-gre+ dconf-service   /usr/libexec/dconf-service
+   2859     0     0 root     kworker/0:1-eve [kworker/0:1-events]
+   3032     0     0 root     systemd-userwor systemd-userwork: waiting...
+   3059     0     0 root     su              su - user1
+   3060  1234  1234 user1    bash            -bash
+   3124     0     0 root     kworker/u16:3-f [kworker/u16:3-flush-btrfs-1]
+   3126     0     0 root     kworker/u16:5-b [kworker/u16:5-blkcg_punt_bio]
+   3178     0     0 root     packagekitd     /usr/libexec/packagekitd
+   3240     0     0 root     systemd-userwor systemd-userwork: waiting...
+   3258  1234  1234 user1    ps              ps -eo pid,ruid,euid,user,comm,args
